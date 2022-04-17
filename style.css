@@ -94,7 +94,8 @@ ul li:hover{
 .afterSubmit{
     align-items: center;
     position: absolute;
-    top: 20%;
+    top: 30%;
+    pointer-events: none;
     opacity: 0;
 }
 
@@ -126,6 +127,6 @@ ul li:hover{
     -------------    Javascript add    ----------------
 */
 
-.active{
-    opacity: 1;
+.ratingSelection{
+    background-color: hsl(25, 97%, 53%);
 }
