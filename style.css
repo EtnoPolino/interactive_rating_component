@@ -1,0 +1,76 @@
+/********* Frontend Mentor ******************/
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+/******************************************/
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Overpass';
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.beforeSubmit,
+.afterSubmit{
+    background-color: hsl(213, 19%, 18%);
+    width: 400px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+#starLogo{
+    background-color: hsl(216, 12%, 54%);
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.beforeSubmit .text h2,
+.beforeSubmit .text p{
+    color: hsl(0, 0%, 100%);
+    
+}
+
+.beforeSubmit .text p{
+    font-size: 15px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between; 
+    padding: 0; 
+}
+
+ul li{
+    background-color: hsl(216, 12%, 54%);
+    border-radius: 50%;
+    padding: 15px;
+    text-align: center;
+    width: 17px;
+    height: 16px;
+}
+
+button{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+
+.afterSubmit{
+    opacity: 0;
+}
