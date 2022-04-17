@@ -12,7 +12,7 @@ My solution for the interactive rating components challenge
 ### Links
 
 - Solution URL : [code](https://github.com/EtnoPolino/interactive_rating_component.git)
-- Live Site URL : [demo]()
+- Live Site URL : [demo](https://etnopolino.github.io/interactive_rating_component/)
 
 ### Built with
 
